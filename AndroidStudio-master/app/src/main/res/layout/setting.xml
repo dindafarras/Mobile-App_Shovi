@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.fragSetting">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textSize="14dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shovi's Admin"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:text="General Setting"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            app:backgroundTint="#ffa836" />
+        <Button
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:text="General Detail"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            app:backgroundTint="#ffa836" />
+
+        <Button
+            android:id="@+id/homeadmin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Home Admin"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            app:backgroundTint="#e69509"/>
+        <Button
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Shipping"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            app:backgroundTint="#e69509"/>
+        <Button
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Payments"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            app:backgroundTint="#ffa836"/>
+        <Button
+            android:id="@+id/catalog"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Catalog Management"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            app:backgroundTint="#e69509"/>
+
+        <Button
+            android:id="@+id/notif"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:text="Notification"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            app:backgroundTint="#ffa836" />
+
+        <Button
+            android:id="@+id/lang"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Languages"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            app:backgroundTint="#ffa836"/>
+        <Button
+            android:id="@+id/faq"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="FAQs"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            app:backgroundTint="#ffa836"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
